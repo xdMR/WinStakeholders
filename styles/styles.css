@@ -43,9 +43,9 @@ FOOTER
 
     --custom: #575E22;
 
-    --bgMain: var(--darkOrange);
-    --accent: var(--darkOrange);
-    --accentBG: var(--darkOrange);
+    --bgMain: var(--darkGreen);
+    --accent: var(--darkGreen);
+    --accentBG: var(--darkGreen);
 
     --darkBlue: #006F74;
     --brightBlue: #00A3B4;
@@ -431,7 +431,7 @@ FOOTER
 }
 
 .bg-custom {
-    background-color: var(--darkRed);
+    background-color: var(--custom);
 }
 
 .bg-brightOrange {
