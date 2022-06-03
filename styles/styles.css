@@ -41,7 +41,7 @@ FOOTER
 \*------------------------------------*/
 :root {
 
-    --custom: #575E22;
+    --custom: #A5473D;
 
     --bgMain: var(--darkGreen);
     --accent: var(--darkGreen);
@@ -618,9 +618,12 @@ p {
 \*------------------------------------*/
 
 .hero-custom{
-    background: var(--darkOrange) url("https://via.placeholder.com/500x1500/8C9B28/e5ded9 ?Text=Background Here") no-repeat;
+    /* background: var(--darkOrange) url("https://via.placeholder.com/500x1500/8C9B28/e5ded9 ?Text=Background Here") no-repeat; */
+    background-color: rgb(43, 43, 43);
     background-size: cover;
     color:#e5ded9;
+    background: linear-gradient(336deg, rgba(25,25,25,1) 0%, rgba(37,37,37,1) 35%, rgba(45,45,45,1) 100%);
+
 }
 
 

@@ -1,7 +1,27 @@
+@font-face {
+    font-family: Mogan;
+    src: url(Mogan-Regular.otf);
+  }
+
 .h3{
     font-size: 30px;
 }
 
+/* h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+} */
+.font-mogan{
+    font-family: 'Mogan';
+}
 ul{
     padding-left: 2em;
 }
+
+
+.container-cc {
+    width: 85%;
+    max-width: 55em;
+    margin: 0 auto;
+}
+
+
