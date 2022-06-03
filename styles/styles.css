@@ -67,6 +67,7 @@ FOOTER
     --lightGray: #f2f2f2;
     --darkGray: #a3a3a3;
     --black: #2c2c2c;
+    --black: #000000;
 
 }
 
@@ -623,7 +624,7 @@ p {
     background-color: rgb(43, 43, 43);
     background-size: cover;
     color:#e5ded9;
-    background: linear-gradient(336deg, rgba(25,25,25,1) 0%, rgba(37,37,37,1) 35%, rgba(45,45,45,1) 100%);
+    background-color: rgb(0, 0, 0);
 
 }
 
