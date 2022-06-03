@@ -41,7 +41,7 @@ FOOTER
 \*------------------------------------*/
 :root {
 
-    --custom: var(--darkOrange);
+    --custom: #575E22;
 
     --bgMain: var(--darkOrange);
     --accent: var(--darkOrange);
@@ -618,7 +618,7 @@ p {
 \*------------------------------------*/
 
 .hero-custom{
-    background: var(--darkOrange) url("https://via.placeholder.com/500x1500/532504/e5ded9 ?Text=Background Here") no-repeat;
+    background: var(--darkOrange) url("https://via.placeholder.com/500x1500/8C9B28/e5ded9 ?Text=Background Here") no-repeat;
     background-size: cover;
     color:#e5ded9;
 }
