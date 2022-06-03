@@ -24,4 +24,25 @@ ul{
     margin: 0 auto;
 }
 
+p,
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+}
 
+.btn-goals {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 1.1;
+}

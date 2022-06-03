@@ -74,7 +74,8 @@ FOOTER
     margin: 0;
     padding: 0;
     line-height: 1.5;
-    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     /* color: rgb(47 47 47); */
     box-sizing: border-box;
 }
@@ -1009,7 +1010,8 @@ END TESTIMONIALS
     margin: 0;
     padding: 0;
     line-height: 1.5;
-    font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    /* font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
 
