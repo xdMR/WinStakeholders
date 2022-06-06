@@ -68,7 +68,7 @@ padding-top:0.9em;
 
     @media only screen and (max-width: 54em) {
         #articles-and-podcasts img{
-            max-width: 100px;
+            max-width: 60px;
         }
     }
 
@@ -112,4 +112,32 @@ p, ul{
     .pillar div:nth-child(2){
         flex-basis: 90%;
     }
+}
+
+#introStatements img{
+    max-width: 200px;
+}
+
+
+@media only screen and (max-width: 54em) {
+ .mogine-mobile-30{
+     font-size: 30px;
+ }
+ .btn{
+     font-size:1em;
+     padding: 0.8em 1em;
+ }
+ p{
+    font-size: 17px;
+ }
+ h2 {
+    font-size: 1.4em;
+}
+
+#introStatements img {
+    max-width: 150px;
+}
+.note {
+    font-size: 14px;
+}
 }
