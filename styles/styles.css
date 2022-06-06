@@ -602,6 +602,10 @@ p {
     height: auto;
 }
 
+#header .btn {
+    max-width: 11.5em;
+    font-size:0.85em;
+}
 
 
 @media screen and (max-width: 27em) {
