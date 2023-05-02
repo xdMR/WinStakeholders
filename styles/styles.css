@@ -60,6 +60,7 @@ FOOTER
     --brightOrange: #EC621D;
     --darkYellow: #d8a739;
     --brightYellow: #FFCD5E;
+    --pink: #DD4E4E;
 
 
 
@@ -495,8 +496,9 @@ FOOTER
     background-color: var(--black);
 }
 
-
-
+.bg-pink {
+    background-color: var(--pink);
+}
 
 
 
