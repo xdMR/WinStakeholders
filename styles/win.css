@@ -1,16 +1,17 @@
 @font-face {
     font-family: Mogan;
     src: url(Mogan-Regular.otf);
-  }
+}
 
 
 /* h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
 } */
-.font-mogan{
+.font-mogan {
     font-family: 'Mogan';
 }
-ul{
+
+ul {
     padding-left: 2em;
 }
 
@@ -42,104 +43,119 @@ h5 {
     line-height: 1.1;
 }
 
-h2{
+h2 {
     font-size: 1.5em;
     line-height: 1.2;
     font-weight: 700;
 }
 
-.h3{
+.h3 {
     font-size: 45px;
     line-height: 1.3;
 }
 
-h2{
+h2 {
     padding-top: 1em;
 }
 
-#articles-and-podcasts h2{
-padding-top:0.9em;
+#articles-and-podcasts h2 {
+    padding-top: 0.9em;
 }
 
-#articles-and-podcasts .column{
-    padding-top:0.5em;
-    padding-bottom:0.5em;
-    }
+#articles-and-podcasts .column {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
 
-    @media only screen and (max-width: 54em) {
-        #articles-and-podcasts img{
-            max-width: 60px;
-        }
+@media only screen and (max-width: 54em) {
+    #articles-and-podcasts img {
+        max-width: 60px;
     }
+}
 
-    
-p, ul{
-    padding-bottom:0.5em;
+
+p,
+ul {
+    padding-bottom: 0.5em;
     padding-top: 0.5em;
 }
 
-.pillar-img{
-    max-width:100px;
-}
-.centercenter{
-    display: flex;
-            justify-content: center;
-            align-items: center;
+.pillar-img {
+    max-width: 100px;
 }
 
-.pillar div:first-child{
+.centercenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pillar div:first-child {
     flex-basis: 20%;
 }
-.pillar div:nth-child(2){
+
+.pillar div:nth-child(2) {
     flex-basis: 80%;
 }
+
 @media only screen and (max-width: 54em) {
 
-    .centercenter{
-        padding-top:8px;
+    .centercenter {
+        padding-top: 8px;
         display: flex;
-                justify-content: center;
-                align-items:flex-start;
+        justify-content: center;
+        align-items: flex-start;
     }
 
-    .pillar-img{
-        max-width:50px;
+    .pillar-img {
+        max-width: 50px;
     }
 
-    .pillar div:first-child{
+    .pillar div:first-child {
         flex-basis: 10%;
     }
-    .pillar div:nth-child(2){
+
+    .pillar div:nth-child(2) {
         flex-basis: 90%;
     }
 }
 
-#introStatements img{
+#introStatements img {
     max-width: 200px;
 }
 
 
 @media only screen and (max-width: 54em) {
- .mogine-mobile-30{
-     font-size: 30px;
- }
- .btn{
-     font-size:1em;
-     padding: 0.8em 1em;
- }
- p{
-    font-size: 17px;
- }
- h2 {
-    font-size: 1.4em;
-}
+    .mogine-mobile-30 {
+        font-size: 30px;
+    }
 
-#introStatements img {
-    max-width: 150px;
-}
-.note {
-    font-size: 14px;
-}
+    .btn {
+        font-size: 1em;
+        padding: 0.8em 1em;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    #introStatements img {
+        max-width: 150px;
+    }
+
+    .note {
+        font-size: 14px;
+    }
+
+
+    .hero-item-2 p {
+        font-size: 18px;
+        margin-right: 0%;
+    }
 }
 
 /* Testimonials */
@@ -161,16 +177,19 @@ p, ul{
     content: url('/images/quotes.png');
     zoom: 3%;
     margin-right: 5px;
+
+
 }
 
 @media only screen and (max-width: 865px) {
-    
+
     .divider {
         border-right: 0px solid white;
         border-bottom: 2px solid white;
     }
 
-    .testimonial .pr-3, .testimonial .pl-3 {
+    .testimonial .pr-3,
+    .testimonial .pl-3 {
         padding-right: 0em !important;
         padding-left: 0em !important;
     }
