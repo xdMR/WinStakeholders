@@ -645,6 +645,10 @@ p {
 }
 
 
+.head-button a {
+  color: #fff;
+  text-decoration: none;
+}
 
 .hero-custom {
     /* background: var(--darkOrange) url("https://via.placeholder.com/500x1500/8C9B28/e5ded9 ?Text=Background Here") no-repeat; */
