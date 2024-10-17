@@ -484,6 +484,14 @@ FOOTER
   background-color: var(--pink);
 }
 
+.pricelink {
+  color: var(--darkGreen);
+}
+
+.pricelink2 {
+  color: var(--darkPink);
+}
+
 /*------------------------------------*\
     $TYPOGRAPHY
 \*------------------------------------*/
